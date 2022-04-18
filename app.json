@@ -10,17 +10,33 @@
         "NacBots"
     ],
     "website": "https://t.me/NacBots",
-    "repository": "https://github.com/azikdeveloper017/azikpdf",
+    "repository": "https://github.com/botlarimuchunrepo/azikpdf22",
     "success_url": "https://github.com/nacbots",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
             "required": true
         },
+        "CONVERT_API": {
+			"description": "ConvertAPI secret token",
+			"required": false
+		},
+        "API_TOKEN": {
+			"description": "API_TOKEN from @botfather",
+			"required": true
+		},
         "API_HASH": {
             "description": "Your API Hash from my.telegram.org",
             "required": true
         },
+        "MAX_FILE_SIZE": {
+			"description": "for preventing overload (in mb)",
+			"required": false
+		},
+		"OWNER_ID": {
+			"description": "No Use Yet.. :/",
+			"required": false
+		},
         "API_ID": {
             "description": "Your APP ID from my.telegram.org",
             "required": true
